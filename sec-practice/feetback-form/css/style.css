@@ -43,7 +43,7 @@ input, textarea, select, button {
 }
 
 button {
-  background: #0d6efd;
+  background: #0c66ed;
   color: #fff;
   border: none;
   padding: 8px 24px;
@@ -53,4 +53,16 @@ footer {
   text-align: center;
   color: #888;
   font-size: 14px;
+}
+input:valid{
+    background-color:chartreuse;
+}
+input:not(:placeholder-shown):invalid{
+  border:2px solid red;
+}
+input:focus{
+    background-color:#fff389;
+}
+[type]{
+  background-color:rgb(195, 224, 236);
 }
