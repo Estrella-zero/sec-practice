@@ -23,6 +23,51 @@
             <h2>反馈表单</h2>
             <p>(表单下一步填在这里)</p>
         </section>
+        <form action="#" method="get">
+  <p>
+    <label for="name">姓名（可填昵称）</label>
+    <input type="text" id="name" name="name" placeholder="怎么称呼你" required>
+  </p>
+  <p>
+  <label for="days">计划游玩天数</label>
+  <input type="number" id="days" name="days" placeholder="天数" min="1" required>
+  </p>
+  <p>
+    <label for="visit-date">游玩日期</label>
+    <input type="date" id="visit-date" name="visitdate" required>
+  </p>
+  <p>景点游玩体验评价</p>
+  <p>
+    <strong>捞鱼河公园</strong>
+    <label><input type="radio" name="laoyuhe" value="5" checked> 游玩体验良好</label>
+    <label><input type="radio" name="laoyuhe" value="4"> 体验一般</label>
+    <label><input type="radio" name="laoyuhe" value="3"> 体验很差</label>
+  </p>
+   <p>
+    <strong>海晏村</strong>
+    <label><input type="radio" name="haiyancun" value="5" checked> 游玩体验良好</label>
+    <label><input type="radio" name="haiyancun" value="4"> 体验一般</label>
+    <label><input type="radio" name="haiyancun" value="3"> 体验很差</label>
+  </p>
+  <p>想要改善的地方（可多选）</p>
+  <p>
+    <label><input type="checkbox" name="topic" value="subway"> 交通路线规划不清晰</label>
+    <label><input type="checkbox" name="topic" value="js"> 景点介绍有误</label>
+    <label><input type="checkbox" name="topic" value=""> 行程模板太少</label>
+    <label><input type="checkbox" name="topic" value=""> 没有根据天气修改计划</label>
+  </p>
+  <p>
+     <label for="advice">其他建议</label><br>
+    <textarea id="advice" name="advice" rows="4" maxlength="500" placeholder="说点什么"></textarea>
+  </p>
+  <p>
+     <label for="advice">具体意见</label><br>
+    <textarea id="advice" name="advice" rows="4" maxlength="500" placeholder="说点什么"></textarea>
+  </p>
+  <p>
+    <button type="submit">提交反馈</button>
+  </p>
+</form>
     </main>
     <footer>
         <p>呈贡旅游建议网站满意度调查</p> 
